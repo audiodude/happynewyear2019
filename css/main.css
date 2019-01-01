@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+
+#sub {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+.text {
+  font-size: 20vh;
+  margin: 0 4vh;
+  position: relative;
+}
+
+.words {
+  border: 1vh solid transparent;
+  padding: 2vh;
+  transition: transform 2s ease-out;
+}
+
+.fresh {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
